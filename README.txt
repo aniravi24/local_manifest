@@ -3,7 +3,7 @@ local_manifest
 
 local manifest and instructions for building omni on a d2 device 
 
-This is subject to heavy change, so expect updates, and I'd recommend checking back here. (expect changes in the manifest as well)  
+This is subject to heavy change, so expect updates, and I'd recommend checking back here. (expect changes in the manifest as well). This is a simple build of omni with no added tweaks.   
 
 This guide assumes you are in your omnirom root directory (so wherever omnirom was repo sync'd). This guide also assumes you haven't changed anything yet.  
 

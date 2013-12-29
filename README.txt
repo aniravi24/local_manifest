@@ -1,5 +1,6 @@
 local_manifest
 ==============
+IGNORE THESE INSTRUCTIONS FOR THE TIME BEING. I'M ALMOST FINISHED WITH A BETTER WAY TO DO THIS (INCLUDING A BETTER MANIFEST), AND ESPECIALLY FIXING STEP 3 IN THE PROPER MANNER. I SHOULD HAVE THE NEW INSTRUCTIONS UPLOADED SOON.
 
 local manifest and instructions for building omni on a d2 device, using the necessary CAF items. (Omni can be built in a much easier fashion without CAF, but there's a loss of functionality if CAF isn't used.)
 

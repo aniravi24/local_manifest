@@ -11,23 +11,15 @@
 <remove-project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="omnirom" revision="android-4.4" />
 <remove-project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="omnirom" revision="android-4.4" />
 <remove-project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="omnirom" revision="android-4.4" />
-<remove-project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnirom" revision="android-4.4" />
-<remove-project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="omnirom" revision="android-4.4" />
 <remove-project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" revision="android-4.4" remote="omnirom" groups="pdk" />
 <remove-project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="omnirom" revision="android-4.4" />
-<remove-project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-4.4" />
-<remove-project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-4.4" />
 <remove-project path="system/core" name="android_system_core" remote="omnirom" revision="android-4.4" />
 <!--extra keep -->
 <project path="hardware/qcom/audio-caf" name="SlimRoms/hardware_qcom_audio-caf" remote="github" revision="kk4.4" />
 <project path="hardware/qcom/display-caf" name="SlimRoms/hardware_qcom_display-caf" remote="github" revision="kk4.4" />
 <project path="hardware/qcom/media-caf" name="SlimRoms/hardware_qcom_media-caf" remote="github" revision="kk4.4" />
-<project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="kk4.4-caf" />
-<project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="kk4.4-caf" />
 <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="kk4.4" />
 <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="github" revision="kk4.4-caf" />
-<project path="external/bluetooth/bluedroid" name="SlimRoms/android_external_bluetooth_bluedroid" remote="github" revision="kk4.4-caf" />
-<project path="frameworks/av" name="omnirom/android_frameworks_av" remote="github" revision="qcom-4.4_2.7" />
-<project path="frameworks/native" name="omnirom/android_frameworks_native" remote="github" revision="qcom-4.4_2.7" />
-<project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="kk4.4-caf" />
+<project path="external/bluetooth/bluedroid" name="Androidsftw/android_external_bluetooth_bluedroid" remote="github" revision="android-4.4" />
+<project path="system/core" name="Androidsftw/android_system_core" remote="github" revision="android-4.4" />
 </manifest>

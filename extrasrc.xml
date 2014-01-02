@@ -18,7 +18,6 @@
 <project path="hardware/qcom/audio-caf" name="SlimRoms/hardware_qcom_audio-caf" remote="github" revision="kk4.4" />
 <project path="hardware/qcom/display-caf" name="SlimRoms/hardware_qcom_display-caf" remote="github" revision="kk4.4" />
 <project path="hardware/qcom/media-caf" name="SlimRoms/hardware_qcom_media-caf" remote="github" revision="kk4.4" />
-<project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="kk4.4" />
 <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="github" revision="kk4.4-caf" />
 <project path="external/bluetooth/bluedroid" name="Androidsftw/android_external_bluetooth_bluedroid" remote="github" revision="android-4.4" />
 <project path="system/core" name="Androidsftw/android_system_core" remote="github" revision="android-4.4" />

@@ -13,7 +13,7 @@ Steps:
 
 1. Using the manifest in this repository, change the device-specific repository (from d2spr to whichever d2 device you have. The rest of the repositories in that manifest should stay the same..I think.) (Just in case you didn't know, place the local manifest in .repo/local_manifests/ , and if the local_manifests directory doesn't exist, create it.)
 
-2. Edit .repo/manifest.xml. Find the three projects (audio-caf, media-caf, and display-caf). Change the revision which should say "android-4.4" to "qcom-4.4_2.7". (This is now needed thanks to a repo tool update which doesn't allow duplicate paths set in your xml's.)
+2. Edit .repo/manifest.xml. Find the three projects (audio-caf, media-caf, and display-caf). Change the revision which should say "android-4.4" to "qcom-4.4_2.7". (This is now needed thanks to a repo tool update which doesn't allow duplicate paths set in your xml's. You can still do this the way this used to be done without having to edit the default manifest, but for now, this medthod is easier for a few reasons.)
 
 3. If you do a repo sync and you get an uncommitted changes in .repo/manifests "error", then you need to go into .repo/manifests, do a git reset --hard, and then do a repo sync. Then repeat step 2 again, and then do a repo sync again. 
 

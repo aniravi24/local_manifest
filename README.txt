@@ -17,4 +17,4 @@ Steps:
 
 3. If you do a repo sync and you get an uncommitted changes in .repo/manifests "error", then you need to go into .repo/manifests, do a git reset --hard, and then do a repo sync. Then repeat step 2 again, and then do a repo sync again. 
 
-4. Before starting the build, after running . build/envsetup.sh, run "repopick 5177 5361" without the quotes. (This command picks stuff from omni's gerrit that haven't been merged yet. This is subject to change as omni merges stuff, so expect this to change, maybe even right after this readme is uploaded to github.) You will have to run both of these commands every time you repo sync because repo sync will overwrite the changes.
+4. Before starting the build, after running . build/envsetup.sh, run "repopick 5177" without the quotes. (This command picks stuff from omni's gerrit that haven't been merged yet. This is subject to change as omni merges stuff, so expect this to change, maybe even right after this readme is uploaded to github.) You will have to run both of these commands every time you repo sync because repo sync will overwrite the changes.

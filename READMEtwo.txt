@@ -13,4 +13,4 @@ Steps:
 
 1. Use extrasrctwo.xml, (Just in case you didn't know, place the local manifest in [insert build directory here]/.repo/local_manifests/ , and if the local_manifests directory doesn't exist, create it.)
 
-2. Before starting the build, after running . build/envsetup.sh, run "repopick 5361" without the quotes. (These commands picks stuff from omni's gerrit that haven't been merged yet. This is subject to change as omni merges stuff, so expect this to change, maybe even right after this readme is uploaded to github.) You will have to run both of these commands every time you repo sync because repo sync will overwrite the changes.
+And build! There's nothing special needed anymore :)

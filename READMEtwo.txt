@@ -13,4 +13,4 @@ Steps:
 
 1. Use extrasrctwo.xml, (Just in case you didn't know, place the local manifest in [insert build directory here]/.repo/local_manifests/ , and if the local_manifests directory doesn't exist, create it.)
 
-And build! There's nothing special needed anymore :)
+2. After running . build/envsetup.sh , run "repopick 5946 6353" (without the quotes). And then just run "brunch d2lte" to start the build.

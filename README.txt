@@ -11,4 +11,4 @@ Steps:
 
 1. Use extrasrc.xml, (Just in case you didn't know, place the local manifest in [insert build directory here]/.repo/local_manifests/ , and if the local_manifests directory doesn't exist, create it.)
 
-2. After running . build/envsetup.sh , run "repopick 2991 4343 5946 6353 6663" (without the quotes). And then go into hardware/qcom/display-caf/ and run "git fetch http://gerrit.dirtyunicorns.com/android_hardware_qcom_display-caf refs/changes/46/2246/1 && git cherry-pick FETCH_HEAD" And then just run "brunch d2lte" to start the build.
+2. After running . build/envsetup.sh , run "repopick 2991 4343 5946 6353 6663 7954" (without the quotes). Then, just run "brunch d2lte" to start the build.
